@@ -77,13 +77,13 @@ export default class CreateRoomPage extends Component {
       <Grid container spacing={1}>
         <Grid item xs={12} align="center">
           <Typography component="h4" variant="h4">
-            Create A Room
+          <font color= "#FFFFFF">Create A Room </font>
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
           <FormControl component="fieldset">
             <FormHelperText>
-              <div align="center">Guest Control of Playback State</div>
+              <div align="center"><font color= "#FFFFFF">Guest Control of Playback State</font></div>
             </FormHelperText>
             <RadioGroup
               row
@@ -118,7 +118,7 @@ export default class CreateRoomPage extends Component {
               }}
             />
             <FormHelperText>
-              <div align="center">Votes Required To Skip Song</div>
+              <div align="center"><font color= "#FFFFFF">Votes Required To Skip Song</font></div>
             </FormHelperText>
           </FormControl>
         </Grid>

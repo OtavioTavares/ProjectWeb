@@ -48,22 +48,22 @@ export default class Room extends Component {
       <Grid container spacing={1}>
         <Grid item xs={12} align="center">
           <Typography variant="h4" component="h4">
-            Code: {this.roomCode}
+          <font color= "#FFFFFF">Code: {this.roomCode}</font>
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
           <Typography variant="h6" component="h6">
-            Votes: {this.state.votesToSkip}
+          <font color= "#FFFFFF">Votes: {this.state.votesToSkip}</font>
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
           <Typography variant="h6" component="h6">
-            Guest Can Pause: {this.state.guestCanPause.toString()}
+          <font color= "#FFFFFF">Guest Can Pause: {this.state.guestCanPause.toString()}</font>
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
           <Typography variant="h6" component="h6">
-            Host: {this.state.isHost.toString()}
+          <font color= "#FFFFFF">Host: {this.state.isHost.toString()}</font>
           </Typography>
         </Grid>
         <Grid item xs={12} align="center">
